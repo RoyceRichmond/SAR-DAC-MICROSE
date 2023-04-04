@@ -1,0 +1,8 @@
+ln -s /usr/local/share/xschem/xschem_library/devices "$PRJ/xschem/devices"
+ln -s $HOME/pdk/sky130A/libs.tech/xschem/sky130_stdcells "$PRJ/xschem/sar/dac/sky130_stdcells"
+ln -s $HOME/pdk/sky130A/libs.tech/xschem/sky130_stdcells "$PRJ/xschem/sar/sw/sky130_stdcells"
+ln -s $HOME/pdk/sky130A/libs.tech/xschem/sky130_fd_pr "$PRJ/xschem/sar/sw/sky130_primitives"
+ln -s $HOME/pdk/sky130A/libs.tech/xschem/sky130_fd_pr "$PRJ/xschem/sar/comparator/sky130_primitives"
+ln -s $HOME/pdk/sky130A/libs.tech/xschem/sky130_fd_pr "$PRJ/xschem/sar/latch/sky130_primitives"
+ln -s $HOME/pdk/sky130A/libs.tech/xschem/sky130_fd_pr "$PRJ/xschem/sar/latch/logic/sky130_primitives"
+
