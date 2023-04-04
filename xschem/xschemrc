@@ -89,17 +89,17 @@ set dircolor(devices$) red
 # keybindings
 #----------------------------------------------------------------------
 
-set replace_key(Key-a) m
-set replace_key(Key-d) Delete
-set replace_key(Key-i) Insert
-set replace_key(Key-r) Control-e
-set replace_key(Key-y) Control-c
-set replace_key(Key-q) Shift-Q
-set replace_key(Shift-Q) q
-set replace_key(Key-l) Alt-Shift-L
-set replace_key(Shift-L) Alt-l
-set replace_key(Shift-L) Alt-l
-set replace_key(Key-p) Control-w
+#set replace_key(Key-a) m
+#set replace_key(Key-d) Delete
+#set replace_key(Key-i) Insert
+#set replace_key(Key-r) Control-e
+#set replace_key(Key-y) Control-c
+#set replace_key(Key-q) Shift-Q
+#set replace_key(Shift-Q) q
+#set replace_key(Key-l) Alt-Shift-L
+#set replace_key(Shift-L) Alt-l
+#set replace_key(Shift-L) Alt-l
+#set replace_key(Key-p) Control-w
 
 #----------------------------------------------------------------------
 # terminal
@@ -120,5 +120,5 @@ lappend tcl_files ${XSCHEM_SKY130_SCRIPTS_PATH}/sky130_models.tcl
 #----------------------------------------------------------------------
 # skywater pdk specific variables
 #----------------------------------------------------------------------
-set SKYWATER_MODELS ${PDK_PATH}/sky130_fd_pr_ngspice/latest
-set SKYWATER_STDCELLS ${PDK_PATH}/sky130_fd_sc_hd/latest
+set SKYWATER_MODELS ${PDK_PATH}/libs.tech/ngspice
+set SKYWATER_STDCELLS ${PDK_PATH}/libs.ref/sky130_fd_sc_hd/spice
